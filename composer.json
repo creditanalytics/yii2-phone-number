@@ -1,0 +1,36 @@
+{
+    "name": "creditanalytics/yii2-phone-number",
+    "description": "Yii2 component for phone number input",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "cleave.js",
+        "international telephone numbers",
+        "libphonenumber"
+    ],
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Dmitriy Bushin",
+            "email": "dima.bushin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/cleave.js": "*",
+        "giggsey/libphonenumber-for-php": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "creditanalytics\\phonenumber\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
